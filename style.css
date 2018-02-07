@@ -1,0 +1,249 @@
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-thin);
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-extra-light);
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-light);
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-medium);
+
+.black-background {
+    background: url(images/blackbgr.png) repeat;
+}
+
+.black-container {
+    height: 504px;
+}
+
+.added-to-slider {
+    z-index: 10000;
+}
+
+.header-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-text-style {
+    font-family: 'Exo 2.0 Light';
+    font-size: 20px;
+}
+
+.mainname-color {
+    color: #CC0033;
+}
+
+.mainname-color:hover {
+    text-decoration: none;
+    color: #CC0033;
+}
+
+.nopadding {
+    padding: 0px;
+}
+
+.carousel-caption-style {
+    font-family: 'Exo 2.0 Extra Light';
+}
+
+.slider-game-name {
+    font-size: 30px;
+}
+
+.slider-game-price {
+    font-size: 20px;
+}
+
+.pad-bot {
+    padding-bottom: 10px;
+}
+
+.pad-top {
+    padding-top: 10px;
+}
+
+.navbar-text-style {
+    font-family: 'Exo 2.0 Light';
+    color: #000000;
+    font-size: 15px;
+}
+
+.navbar-bgr {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.navbar-margin {
+    margin-bottom: 0px;
+}
+
+.btn-style {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #FFFFFF;
+}
+
+.preview {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.preview:hover .preview-caption-style {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.preview-big-post {
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.preview-sm-post {
+    max-height: 175px;
+    overflow: hidden;
+}
+
+.preview-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.preview-img-center {
+    margin-left: -25%;
+}
+
+.preview-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.preview-caption-style {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #FFFFFF;
+    font-family: 'Exo 2.0 Light';
+}
+
+.smth-else {
+    font-family: 'Exo 2.0 Light';
+    font-size: 20px;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #FFFFFF;
+}
+
+.smth-else:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+}
+
+.preview-big-caption-font {
+    font-size: 20px;
+}
+
+.preview-small-caption-font {
+    font-size: 15px;
+}
+
+.preview-btn {
+    
+}
+
+.preview-author {
+    font-style: italic;
+}
+
+.row-name {
+    font-family: 'Exo 2.0 Light';
+    color: #000000;
+}
+
+.black-row-name {
+    color: #FFFFFF;
+}
+
+.gray-frame {
+    border: 1px solid #003366;
+}
+
+.tile-holder {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.tile {
+    display: block;
+    width: 100%;
+	position: absolute;
+	top: 40px;
+    left: 0;
+    text-align: center;
+}
+
+.tile:hover {
+    text-decoration: none;
+    /*background-color: #CCCCCC;*/
+}
+
+.tile-img {
+    width: 130px;
+    height: 130px;
+}
+
+.tile-name {
+    color: #FFFFFF;
+    font-family: 'Exo 2.0 Light';
+    font-size: 25px;
+}
+
+.footer-col-name {
+    font-family: 'Exo 2.0 Light';
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer-items {
+    color: #FFFFFF;
+}
+
+.footer-items:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer-cp {
+    color: #FFFFFF;
+    font-family: 'Exo 2.0 Light';
+    font-size: 15px;
+}
+
+.footer-cp-name {
+    color: #CC0033;
+    font-size: 25px;
+}
+
+.footer-background {
+    background: url(images/footer.png) repeat;
+}
+
+@media (max-width: 768px) {
+    .preview-img-center {
+        margin-left: 0;
+        max-height: 100%;
+    }
+    
+    .tile-img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .tile-name {
+        color: #000000;
+        font-family: 'Exo 2.0 Light';
+        font-size: 17px;
+    }
+    
+    .footer-container {
+        text-align: center;
+    }
+}

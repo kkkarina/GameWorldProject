@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="style.css" />	
+		<script src="libs/jquery-3.1.1.min.js"></script>
+		<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class='container-fluid'>
+            <div class='row header-block header-text-style'>
+                <div class='col col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                    <a href='#' class='mainname-color'>Игровой мир</a>
+                </div>
+                <div class='col col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right'>
+                    <span>Интернет-магазин</span>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col col-md-12 nopadding'>
+                    <div class='carousel slide added-to-slider' id='mainSlider' data-interfal='3000' data-ride='carousel'>
+                        <ol class='carousel-indicators'>
+                            <li data-target='#mainSlider' data-slide-to='0' class='active'></li>
+                            <li data-target='#mainSlider' data-slide-to='1'></li>
+                        </ol>
+                        <div class='carousel-inner'>
+                            <div class='active item'>
+                                <img src='images/0.jpg'>
+                                <div class='carousel-caption carousel-caption-style'>
+                                    <p class='slider-game-name'>The Witcher III</p>
+                                    <p class='slider-game-price'>цена 159 руб.</p>
+                                    <div class='pad-bot'>
+                                        <button class='btn btn-primary'>
+                                            <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                                        </button>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class='item'>
+                                <img src='images/1.jpg'>
+                                <div class='carousel-caption carousel-caption-style'>
+                                    <p class='slider-game-name'>Dead By Daylight</p>
+                                    <p class='slider-game-price'>цена 159 руб.</p>
+                                    <div class='pad-bot'>
+                                        <button class='btn btn-primary btn-style'>
+                                            <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                                        </button>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <a class='carousel-control left' href='#mainSlider' data-slide='prev'>
+                            <span class='glyphicon glyphicon-chevron-left'></span>
+                        </a>
+                        <a class='carousel-control right' href='#mainSlider' data-slide='next'>
+                            <span class='glyphicon glyphicon-chevron-right'></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class='navbar navbar-default navbar-text-style navbar-bgr navbar-margin' role='navigation'>
+            <div class='container'>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" href="#">Меню</a>
+                </div>
+                <div class='collapse navbar-collapse' id='navbar-main'>
+                    <ul class='nav navbar-nav'>
+                        <li class='dropdown'>
+                            <a href='#' class='drondown-toggle' data-toggle='dropdown'><span class="glyphicon glyphicon-th-list"></span> Каталог <span class="caret"></span></a>
+                            <ul class='dropdown-menu' role='menu'>
+                                <li><a href='#'>Экшен</a></li>
+                                <li><a href='#'>Приключения</a></li>
+                                <li><a href='#'>Аркада</a></li>
+                                <li><a href='#'>РПГ, Ролевые игры</a></li>
+                            </ul>
+                        </li>
+                        <li><a href='#'>Новинки</a></li>
+                        <li><a href='#'>Распродажа</a></li>
+                        <li><a href='#'>Обзоры</a></li>
+                    </ul>
+                    <form class='navbar-form navbar-right visible-md visible-lg' role='search'>
+                        <div class='form-group'>
+                            <input type='text' class='form-control' placeholder='Что будем искать?'>
+                        </div>
+                        <button type="submit" class='btn btn-default btn-style'>
+                            <span class = "glyphicon glyphicon-search"></span> Искать
+                        </button>
+                    </form>
+                </div>                
+            </div>
+        </nav>
+        <div class='container'>
+            <div class='row pad-bot'>
+                <h3 class='text-center row-name'>Лучшие предложения</h3>
+                <div class='col col-xs-12 col-sm-12 col-md-6 col-lg-6'>
+                    <div class='row'>
+                        <div class='col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadding'>
+                            <div class='preview'>
+                                <img src='images/cs.jpg' class='img-respinsive preview-img'>
+                                <span class='preview-caption preview-caption-style preview-small-caption-font'>
+                                    <div class='pad-bot'><p>Counter-Strike: Global Offensive</p></div>
+                                    <span>599 руб.</span>
+                                    <button class='btn btn-primary btn-style preview-btn pull-right'>
+                                        <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                                    </button> 
+                                </span>
+                            </div>
+                        </div>
+                        <div class='col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadding'>
+                            <div class='preview'>
+                                <img src='images/cs.jpg' class='img-respinsive preview-img'>
+                                <span class='preview-caption preview-caption-style preview-small-caption-font'>
+                                    <div class='pad-bot'><p>Counter-Strike: Global Offensive</p></div>
+                                    <span>599 руб.</span>
+                                    <button class='btn btn-primary btn-style preview-btn pull-right'>
+                                        <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                                    </button> 
+                                </span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class='row'>
+                        <div class='col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadding'>
+                            <div class='preview'>
+                                <img src='images/cs.jpg' class='img-respinsive preview-img'>
+                                <span class='preview-caption preview-caption-style preview-small-caption-font'>
+                                    <div class='pad-bot'><p>Counter-Strike: Global Offensive</p></div>
+                                    <span>599 руб.</span>
+                                    <button class='btn btn-primary btn-style preview-btn pull-right'>
+                                        <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                                    </button> 
+                                </span>
+                            </div>
+                        </div>
+                        <div class='col col-xs-6 col-sm-6 col-md-6 col-lg-6 nopadding'>
+                            <div class='preview'>
+                                <img src='images/cs.jpg' class='img-respinsive preview-img'>
+                                <span class='preview-caption preview-caption-style preview-small-caption-font'>
+                                    <div class='pad-bot'><p>Counter-Strike: Global Offensive</p></div>
+                                    <span>599 руб.</span>
+                                    <button class='btn btn-primary btn-style preview-btn pull-right'>
+                                        <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                                    </button> 
+                                </span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class='col col-xs-12 col-sm-12 col-md-6 col-lg-6 nopadding'>
+                    <div class='preview'>
+                        <img src='images/cs.jpg' class='img-respinsive preview-img'>
+                        <span class='preview-caption preview-caption-style preview-big-caption-font'>
+                            <div class='pad-bot text-center'><p>Counter-Strike: Global Offensive</p><p>599 руб.</p></div>
+                            <button class='btn btn-primary btn-style preview-btn center-block'>
+                                <span class='glyphicon glyphicon-shopping-cart'></span> Купить
+                            </button> 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='black-background'>
+            <div class='container black-container'>
+                <div class='row'>
+                    <div class='col col-md-12'>
+                        <h3 class='text-center row-name black-row-name'>Популярные обзоры</h3>
+                        <div class='row'>
+                            <div class='col hidden-xs col-sm-6 col-md-4 nopadding'>
+                                <div class='preview preview-big-post'>
+                                    <img src='images/cs.jpg' class='img-respinsive preview-img-center'>
+                                    <span class='preview-caption preview-caption-style preview-big-caption-font'>
+                                        <div class='pad-bot text-center'><p>Counter-Strike: Global Offensive</p><p class='preview-author'>Антон Иванов</p></div>
+                                        <button class='btn btn-primary btn-style preview-btn center-block'>
+                                            <span class='glyphicon glyphicon-film'></span> Смотреть
+                                        </button> 
+                                    </span>
+                                </div>
+                            </div>
+                            <div class='col col-xs-12 col-sm-6 col-md-4'>
+                                <div class='row'>
+                                    <div class='col col-md-12 nopadding'>
+                                        <div class='preview preview-sm-post'>
+                                            <img src='images/cs.jpg' class='img-respinsive preview-img-center'>
+                                            <span class='preview-caption preview-caption-style preview-big-caption-font'>
+                                                <div class='pad-bot text-center'><p>Counter-Strike: Global Offensive</p><p class='preview-author'>Антон Иванов</p></div>
+                                                <button class='btn btn-primary btn-style preview-btn center-block'>
+                                                    <span class='glyphicon glyphicon-film'></span> Смотреть
+                                                </button> 
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col col-md-12 nopadding'>
+                                        <div class='preview preview-sm-post'>
+                                            <img src='images/cs.jpg' class='img-respinsive preview-img-center'>
+                                            <span class='preview-caption preview-caption-style preview-big-caption-font'>
+                                                <div class='pad-bot text-center'><p>Counter-Strike: Global Offensive</p><p class='preview-author'>Антон Иванов</p></div>
+                                                <button class='btn btn-primary btn-style preview-btn center-block'>
+                                                    <span class='glyphicon glyphicon-film'></span> Смотреть
+                                                </button> 
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col hidden-xs hidden-sm col-md-4 nopadding'>
+                                <div class='preview preview-big-post'>
+                                    <img src='images/cs.jpg' class='img-respinsive preview-img-center'>
+                                    <span class='preview-caption preview-caption-style preview-big-caption-font'>
+                                        <div class='pad-bot text-center'><p>Counter-Strike: Global Offensive</p><p class='preview-author'>Антон Иванов</p></div>
+                                        <button class='btn btn-primary btn-style preview-btn center-block'>
+                                            <span class='glyphicon glyphicon-film'></span> Смотреть
+                                        </button> 
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col col-md-12 pad-top'>
+                                <div class='text-center'>
+                                    <a href='#' class='btn smth-else'>cмотреть ещё</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='container'>
+            <div class='row'>
+                <div class='col col-md-offset-1 col-md-10'>
+                    <div class='row pad-top'>
+                        <div class='col col-xs-4 col-sm-4 col-md-4'>
+							<div class='tile-holder text-center'>
+								<img src='images/circle.png'>
+								<a href='#' class='tile'>
+									<img src='images/icons/basket.png' class='tile-img'>
+									<p class='text-center tile-name'>Купить игру</p>
+								</a>
+							</div>
+                        </div>
+                        <div class='col col-xs-4 col-sm-4 col-md-4'>
+                            <div class='tile-holder text-center'>
+								<img src='images/circle.png'>
+								<a href='#' class='tile'>
+                                    <img src='images/icons/fingerup.png' class='center-block tile-img'>
+                                    <p class='text-center tile-name'>Популярные</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class='col col-xs-4 col-sm-4 col-md-4'>
+                            <div class='tile-holder text-center'>
+								<img src='images/circle.png'>
+								<a href='#' class='tile'>
+                                    <img src='images/icons/star.png' class='center-block tile-img'>
+                                    <p class='text-center tile-name'>Распродажа</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row pad-top pad-bot'>
+                        <div class='col col-xs-4 col-sm-4 col-md-4'>
+							<div class='tile-holder text-center'>
+								<img src='images/circle.png'>
+								<a href='#' class='tile'>
+									<img src='images/icons/video.png' class='center-block tile-img'>
+									<p class='text-center tile-name'>Обзоры</p>
+								</a>
+							</div>                            
+                        </div>
+                        <div class='col col-xs-4 col-sm-4 col-md-4'>
+                            <div class='tile-holder text-center'>
+								<img src='images/circle.png'>
+								<a href='#' class='tile'>
+                                    <img src='images/icons/support.png' class='center-block tile-img'>
+                                    <p class='text-center tile-name'>Поддержка</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class='col col-xs-4 col-sm-4 col-md-4'>
+                            <div class='tile-holder text-center'>
+								<img src='images/circle.png'>
+								<a href='#' class='tile'>
+                                    <img src='images/icons/lk.png' class='center-block tile-img'>
+                                    <p class='text-center tile-name'>Аккаунт</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class='footer-background'>
+            <div class='container footer-container'>
+                <div class='row pad-top'>
+                    <div class='col col-xs-6 col-sm-3 col-md-3'>
+                        <p class='footer-col-name pad-top'>Магазин</p>
+                        <ul class='list-unstyled'>
+                            <li><a href='#' class='footer-items'>Каталог</a></li>
+                            <li><a href='#' class='footer-items'>Новинки</a></li>
+                            <li><a href='#' class='footer-items'>Распродажа</a></li>
+                            <li><a href='#' class='footer-items'>Обзоры</a></li>
+                        </ul>
+                    </div>
+                    <div class='col col-xs-6 col-sm-3 col-md-3'>
+                        <p class='footer-col-name pad-top'>Поддержка</p>
+                        <ul class='list-unstyled'>
+                            <li><a href='#' class='footer-items'>FAQ</a></li>
+                            <li><a href='#' class='footer-items'>Задать вопрос</a></li>
+                            <li><a href='#' class='footer-items'>Пожаловаться</a></li>
+                            <li><a href='#' class='footer-items'>Проблемы с аккаунтом</a></li>
+                            <li><a href='#' class='footer-items'>FAQ</a></li>
+                            <li><a href='#' class='footer-items'>Задать вопрос</a></li>
+                            <li><a href='#' class='footer-items'>Пожаловаться</a></li>
+                            <li><a href='#' class='footer-items'>Проблемы с аккаунтом</a></li>
+                        </ul>
+                    </div>
+                    <div class='col col-xs-6 col-sm-3 col-md-3'>
+                        <p class='footer-col-name pad-top'>Аккаунт</p>
+                        <ul class='list-unstyled'>
+                            <li><a href='#' class='footer-items'>Войти</a></li>
+                            <li><a href='#' class='footer-items'>Зарегистрироваться</a></li>
+                            <li><a href='#' class='footer-items'>Забыли пароль</a></li>
+                            <li><a href='#' class='footer-items'>Аккаунт для компаний</a></li>
+                            <li><a href='#' class='footer-items'>Забыли пароль</a></li>
+                            <li><a href='#' class='footer-items'>Аккаунт для компаний</a></li>
+                            <li><a href='#' class='footer-items'>Забыли пароль</a></li>
+                            <li><a href='#' class='footer-items'>Аккаунт для компаний</a></li>
+                            <li><a href='#' class='footer-items'>Забыли пароль</a></li>
+                            <li><a href='#' class='footer-items'>Аккаунт для компаний</a></li>
+                        </ul>
+                    </div>
+                    <div class='col col-xs-6 col-sm-3 col-md-3'>
+                        <p class='footer-col-name pad-top'>О компании</p>
+                        <ul class='list-unstyled'>
+                            <li><a href='#' class='footer-items'>Основная информация</a></li>
+                            <li><a href='#' class='footer-items'>Лицензии</a></li>
+                            <li><a href='#' class='footer-items'>Обзор продукции</a></li>
+                            <li><a href='#' class='footer-items'>Новости</a></li>
+                            <li><a href='#' class='footer-items'>Связаться с нами</a></li>
+                            <li><a href='#' class='footer-items'>Правила пользования ресурсом</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col col-md-12'>
+                        <div class='footer-cp text-center'>
+                            <p class='footer-cp-name'>Игровой мир</p>
+                            <p>Все права защищены, 2014-2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+	</body>
+</html>
