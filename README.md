@@ -1,1 +1,1 @@
-# GAMEWORLD landind page
+# GAMEWORLD landing page
